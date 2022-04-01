@@ -1,5 +1,5 @@
 Caso d'uso "Inserisci contatto"
-	L’attore Utente	può	inserire un nuovo contatto telefonico, associando  informazioni	mantenute	dal	sistema. Queste	informazioni includono	nome univoco, descrizione e uno o più numeri di telefono.
+	L’attore Utente	può inserire un nuovo contatto telefonico (con un massimo di 100 contatti), associando informazioni mantenute dal sistema. Queste informazioni includono nome univoco, descrizione e uno o più numeri di telefono.
 Scenario no.1 = l'utente inserisce un contatto con un nome univoco non presente nella rubrica.
 Scenario no.2 = l'utente inserisce un contatto con un nome univoco già presente in rubrica, il sistema segnala l'evento e suggerisce un cambio di nome.
 Caso d'uso "Rimuovi contatto"
